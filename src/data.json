@@ -1,0 +1,151 @@
+{
+    "voting-categories": [
+        {   
+            "id": "golden-tubby",
+            "name": "The Golden Tubby",
+            "type": "shared",
+            "options": 5
+        },
+        {   
+            "id": "was-that-this-year",
+            "name": "Was That This Year?",
+            "type": "shared",
+            "options": 3
+        },
+        {   
+            "id": "frickin-dumb-doo-doo-tubby",
+            "name": "The Frickin Dumb Doo-doo Tubby",
+            "type": "shared",
+            "options": 5
+        }
+    ],
+    "shared-reads": [
+        {
+            "book-id": "beforethecoffeegetscold-toshikazukawaguchi",
+            "book-club-date": "01/01/2023",
+            "suggested-by": "bethany",
+            "review" : {
+                "harry": {
+                    "rating": 2.5,
+                    "quote": "Heartwarming aspects and I struggled with the writing style."
+                },
+                "ollie": {
+                    "rating": 3,
+                    "quote": "A meaningful 75%."
+                },
+                "bethany": {
+                    "rating": 4,
+                    "quote": "A story of life."
+                },
+                "katie": {
+                    "rating": 4,
+                    "quote": "Heatwarming story."
+                }
+            }
+        }
+    ],
+    "individual-reads": {
+        "harry": [
+            {
+                "book-id": "theracketeer-johngrisham",
+                "book-club-date": "01/01/2023",
+                "rating": 4,
+                "quote": "Gripping style of writing."
+            },
+            {
+                "book-id": "thetwelvetopsyturvyverymessydaysofchristmas-jamespatterson",
+                "book-club-date": "01/01/2023",
+                "rating": 1.5,
+                "quote": "This is a children's book."
+            },
+            {
+                "book-id": "",
+                "book-club-date": "",
+                "rating": 0,
+                "quote": ""
+            }
+        ],
+        "ollie": [
+            {
+                "book-id": "",
+                "book-club-date": "",
+                "rating": 0,
+                "quote": ""
+            }
+        ],
+        "bethany": [
+            {
+                "book-id": "",
+                "book-club-date": "",
+                "rating": 0,
+                "quote": ""
+            }
+        ],
+        "katie": [
+            {
+                "book-id": "",
+                "book-club-date": "",
+                "rating": 0,
+                "quote": ""
+            }
+        ]
+    },
+    "members": [
+        "Harry",
+        "Ollie",
+        "Bethany",
+        "Katie"
+    ],
+    "books": [
+        {   
+            "id": "theracketeer-johngrisham",
+            "name": "The Racketeer",
+            "author-id": "johngrisham",
+            "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344371438i/13573236.jpg",
+            "publication-date": "23/10/2012",
+            "pages": 340,
+            "goodreads-rating": 3.88,
+            "genres": ["fiction", "mystery", "thriller", "crime", "legal-thriller", "suspense", "mystery-thriller"]
+        },
+        {   
+            "id": "thetwelvetopsyturvyverymessydaysofchristmas-jamespatterson",
+            "name": "The Twelve Topsy-Turvy, Very Messy Days of Christmas",
+            "author-id": "jamespatterson",
+            "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1658819110i/60382742.jpg",
+            "publication-date": "29/09/2022",
+            "pages": 288,
+            "goodreads-rating": 3.9,
+            "genres": ["christmas", "fiction", "holiday", "fantasy", "humor", "magical-realism"]
+        },
+        {   
+            "id": "beforethecoffeegetscold-toshikazukawaguchi",
+            "name": "Before the Coffee Gets Cold",
+            "author-id": "toshikazukawaguchi",
+            "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1560955053i/44421460.jpg",
+            "publication-date": "6/12/2015",
+            "pages": 213,
+            "goodreads-rating": 3.71,
+            "genres": ["fiction", "fantasy", "magical-realism", "contemporary", "time-travel", "japanese"]
+        }
+    ],
+    "authors": [
+        {   
+            "id": "johngrisham",
+            "name": "John Grisham",
+            "gender": "male"
+        },
+        {   
+            "id": "jamespatterson",
+            "name": "James Patterson",
+            "gender": "male"
+        },
+        {   
+            "id": "toshikazukawaguchi",
+            "name": "Toshikazu Kawaguchi",
+            "gender": "male"
+        }
+    ],
+    "sessions": [
+        "01/01/2023"
+    ]
+}
