@@ -1,5 +1,5 @@
 export default function BookCard(props) {
-    const {book, author, review} = props
+    const {book, author, review, shared=false} = props
 
     return (
     <div style={{
@@ -24,8 +24,14 @@ export default function BookCard(props) {
             <p>{book.name}</p>
             <p>{author.name}</p>
             </div>
-            <p>{review.rating} Stars</p>
-            <p>"{review.quote}"</p>
+            {shared ?
+                <p>shared</p>
+            :
+                <>
+                <p>{review.rating} Stars</p>
+                <p>"{review.quote}"</p>
+                </>
+            }
         </div>
     </div>
     );

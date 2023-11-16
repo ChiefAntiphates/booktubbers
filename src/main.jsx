@@ -16,6 +16,7 @@ import GlobalReducer from "./context/global-reducer.js"
 import Verify from './routes/verify.jsx';
 import Navbar from './components/navbar.jsx';
 import Footer from './components/footer.jsx';
+import Library from './routes/library.jsx';
 
 
 const router = createBrowserRouter([
@@ -41,6 +42,11 @@ const router = createBrowserRouter([
       path: "/verify",
       element: <Verify />,
       errorElement: <ErrorPage />,
+    },
+    {
+      path: "/library",
+      element: <Library />,
+      errorElement: <ErrorPage />
     }
   ]
 }
