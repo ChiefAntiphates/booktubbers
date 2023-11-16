@@ -1,0 +1,94 @@
+[
+    {
+        "book-id": "beforethecoffeegetscold-toshikazukawaguchi",
+        "book-club-date": "01/01/2023",
+        "suggested-by": "bethany",
+        "review" : {
+            "harry": {
+                "rating": 2.5,
+                "quote": "Heartwarming aspects and I struggled with the writing style."
+            },
+            "ollie": {
+                "rating": 3,
+                "quote": "A meaningful 75%."
+            },
+            "bethany": {
+                "rating": 4,
+                "quote": "A story of life."
+            },
+            "katie": {
+                "rating": 4,
+                "quote": "Heatwarming story."
+            }
+        }
+    },
+    {
+        "book-id": "thelefthandofdarkness-ursulakleguin",
+        "book-club-date": "29/01/2023",
+        "suggested-by": "harry",
+        "review" : {
+            "harry": {
+                "rating": 4,
+                "quote": "I've never wanted to reread a book more."
+            },
+            "ollie": {
+                "rating": 2,
+                "quote": "Cool story, but WTF, Genly Ai!"
+            },
+            "bethany": {
+                "rating": 1,
+                "quote": "Fiddlefaddle."
+            },
+            "katie": {
+                "rating": 0.5,
+                "quote": "I did not understand."
+            }
+        }
+    },
+    {
+        "book-id": "iwhohaveneverknownmen-jacquelineharpman",
+        "book-club-date": "26/02/2023",
+        "suggested-by": "katie",
+        "review" : {
+            "harry": {
+                "rating": 5,
+                "quote": "Hopelessness compressed into art. My favourite book I have ever read."
+            },
+            "ollie": {
+                "rating": 2.5,
+                "quote": "Waiting... Waiting... Still waiting."
+            },
+            "bethany": {
+                "rating": 5,
+                "quote": "A new favourite book. A definite reread and future recommendation."
+            },
+            "katie": {
+                "rating": 5,
+                "quote": "Never stops giving hope but tells you truth throughout. Heartbreaking story. My new favourite book."
+            }
+        }
+    },
+    {
+        "book-id": "badmonkeys-mattruff",
+        "book-club-date": "16/04/2023",
+        "suggested-by": "ollie",
+        "review" : {
+            "harry": {
+                "rating": 2,
+                "quote": "A very confused narrative with pay off in the wrong places."
+            },
+            "ollie": {
+                "rating": 2.5,
+                "quote": "Good monkey + then bad monkey."
+            },
+            "bethany": {
+                "rating": 2,
+                "quote": "Respectfully, no."
+            },
+            "katie": {
+                "rating": 2,
+                "quote": "Had potential but did not enjoy."
+            }
+        }
+    }
+]

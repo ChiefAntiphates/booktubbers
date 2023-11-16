@@ -1,0 +1,137 @@
+[
+    {   
+        "id": "johngrisham",
+        "name": "John Grisham",
+        "gender": "male"
+    },
+    {   
+        "id": "jamespatterson",
+        "name": "James Patterson",
+        "gender": "male"
+    },
+    {   
+        "id": "toshikazukawaguchi",
+        "name": "Toshikazu Kawaguchi",
+        "gender": "male"
+    },
+    {
+        "id": "bobmortimer",
+        "name": "Bob Mortimer",
+        "gender": "male"
+    },
+    {
+        "id": "marthawells",
+        "name": "Martha Wells",
+        "gender": "female"
+    },
+    {
+        "id": "tobiasleenaert",
+        "name": "Tobias Leenaert",
+        "gender": "male"
+    },
+    {
+        "id": "amyharmon",
+        "name": "Amy Harmon",
+        "gender": "female"
+    },
+    {
+        "id": "mlwang",
+        "name": "M.L. Wang",
+        "gender": "female"
+    },
+    {
+        "id": "colleenhoover",
+        "name": "Colleen Hoover",
+        "gender": "female"
+    },
+    {
+        "id": "ursulakleguin",
+        "name": "Ursula K. Le Guin",
+        "gender": "female"
+    },
+    {
+        "id": "monaawad",
+        "name": "Mona Awad",
+        "gender": "female"
+    },
+    {
+        "id": "brandonsanderson",
+        "name": "Brandon Sanderson",
+        "gender": "male"
+    },
+    {
+        "id": "rfkuang",
+        "name": "R.F. Kuang",
+        "gender": "female"
+    },
+    {
+        "id": "laurevanrensburg",
+        "name": "Laure Van Rensburg",
+        "gender": "female"
+    },
+    {
+        "id": "emilyhenry",
+        "name": "Emily Henry",
+        "gender": "female"
+    },
+    {
+        "id": "jacquelineharpman",
+        "name": "Jacqueline Harpman",
+        "gender": "female"
+    },
+    {
+        "id": "anahuang",
+        "name": "Ana Huang",
+        "gender": "female"
+    },
+    {
+        "id": "alexmichaelides",
+        "name": "Alex Michaelides",
+        "gender": "male"
+    },
+    {
+        "id": "mattruff",
+        "name": "Matt Ruff",
+        "gender": "male"
+    },
+    {
+        "id": "isaacasimov",
+        "name": "Isaac Asimov",
+        "gender": "male"
+    },
+    {
+        "id": "gjogden",
+        "name": "G.J. Ogden",
+        "gender": "male"
+    },
+    {
+        "id": "alicefeeney",
+        "name": "Alice Feeney",
+        "gender": "female"
+    },
+    {
+        "id": "elsiesilver",
+        "name": "Elsie Silver",
+        "gender": "female"
+    },
+    {
+        "id": "terrypratchett",
+        "name": "Terry Pratchett",
+        "gender": "male"
+    },
+    {
+        "id": "janeausten",
+        "name": "Jane Austen",
+        "gender": "female"
+    },
+    {
+        "id": "tedchiang",
+        "name": "Ted Chiang",
+        "gender": "male"
+    },
+    {
+        "id": "hgwells",
+        "name": "H.G. Wells",
+        "gender": "male"
+    }
+]

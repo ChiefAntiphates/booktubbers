@@ -5,34 +5,27 @@ import {
   Outlet,
   RouterProvider,
 } from "react-router-dom";
-import Home from './home.jsx'
-import Contact from './contacts.jsx';
-import ErrorPage from './error-page.jsx';
-import './index.css'
-import Vote from './vote.jsx';
-import Category from './category.jsx';
+import Home from './routes/home.jsx'
+import ErrorPage from './routes/error-page.jsx';
+import './css/index.css'
+import Vote from './routes/vote-root.jsx';
+import Category from './routes/vote.jsx';
 import Cookies from 'js-cookie';
 import GlobalContext, { initialState } from "./context/global-context.js"
 import GlobalReducer from "./context/global-reducer.js"
-import Verify from './verify.jsx';
-import Header from './header.jsx';
-import Footer from './footer.jsx';
+import Verify from './routes/verify.jsx';
+import Navbar from './components/navbar.jsx';
+import Footer from './components/footer.jsx';
 
 
 const router = createBrowserRouter([
   {
-    element: <><Header/><Outlet/><Footer/></>, 
+    element: <><Navbar/><Outlet/><Footer/></>, 
     children: [
     {
       path: "/",
       element: <Home />,
-      errorElement: <ErrorPage />,
-      children: [
-        {
-          path: "contacts/:contactId",
-          element: <Contact />,
-        },
-      ]
+      errorElement: <ErrorPage />
     },
     {
       path: "vote",

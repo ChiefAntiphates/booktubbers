@@ -1,0 +1,322 @@
+[
+    {   
+        "id": "theracketeer-johngrisham",
+        "name": "The Racketeer",
+        "author-id": "johngrisham",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344371438i/13573236.jpg",
+        "publication-date": "23/10/2012",
+        "pages": 340,
+        "goodreads-rating": 3.88,
+        "genres": ["fiction", "mystery", "thriller", "crime", "legal-thriller", "suspense", "mystery-thriller"]
+    },
+    {   
+        "id": "thetwelvetopsyturvyverymessydaysofchristmas-jamespatterson",
+        "name": "The Twelve Topsy-Turvy, Very Messy Days of Christmas",
+        "author-id": "jamespatterson",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1658819110i/60382742.jpg",
+        "publication-date": "29/09/2022",
+        "pages": 288,
+        "goodreads-rating": 3.9,
+        "genres": ["christmas", "fiction", "holiday", "fantasy", "humor", "magical-realism"]
+    },
+    {   
+        "id": "beforethecoffeegetscold-toshikazukawaguchi",
+        "name": "Before the Coffee Gets Cold",
+        "author-id": "toshikazukawaguchi",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1560955053i/44421460.jpg",
+        "publication-date": "6/12/2015",
+        "pages": 213,
+        "goodreads-rating": 3.71,
+        "genres": ["fiction", "fantasy", "magical-realism", "contemporary", "time-travel", "japan"]
+    },
+    {   
+        "id": "thesatsumacomplex-bobmortimer",
+        "name": "The Satsuma Complex",
+        "author-id": "bobmortimer",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657099697i/61401116.jpg",
+        "publication-date": "27/10/2022",
+        "pages": 301,
+        "goodreads-rating": 3.74,
+        "genres": ["fiction", "mystery", "crime", "comedy", "horror", "contemporary"]
+    },
+    {
+        "id": "allsystemsred-marthawells",
+        "name": "All Systems Red",
+        "author-id": "marthawells",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631585309i/32758901.jpg",
+        "publication-date": "02/05/2017",
+        "pages": 144,
+        "goodreads-rating": 4.16,
+        "genres": ["fiction", "science-fiction", "novella", "adult", "fantasy", "space"]
+    },
+    {
+        "id": "howtocreateaveganworldapragmaticapproach-tobiasleenaert",
+        "name": "How to Create a Vegan World: A Pragmatic Approach",
+        "author-id": "tobiasleenaert",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1497977647i/35468340.jpg",
+        "publication-date": "01/07/2017",
+        "pages": 209,
+        "goodreads-rating": 4.38,
+        "genres": ["non-fiction", "vegan", "philosophy", "food", "animals", "activism", "environment"]
+    },
+    {
+        "id": "fromsandandash-amyharmon",
+        "name": "From Sand and Ash",
+        "author-id": "amyharmon",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465348530i/29638166.jpg",
+        "publication-date": "01/12/2016",
+        "pages": 372,
+        "goodreads-rating": 4.38,
+        "genres": ["romance", "fiction", "historical", "war", "historical-romance", "world-war-2"]
+    },
+    {
+        "id": "theswordofkaigen-mlwang",
+        "name": "The Sword of Kaigen",
+        "author-id": "mlwang",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654565234i/41886271.jpg",
+        "publication-date": "01/01/2018",
+        "pages": 559,
+        "goodreads-rating": 4.46,
+        "genres": ["fantasy", "fiction", "adult", "high-fantasy", "epic-fantasy", "magic"]
+    },
+    {
+        "id": "november9-colleenhoover",
+        "name": "November 9",
+        "author-id": "colleenhoover",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1447138036i/25111004.jpg",
+        "publication-date": "10/11/2015",
+        "pages": 310,
+        "goodreads-rating": 4.17,
+        "genres": ["contemporary", "adult", "new-adult", "fiction", "romance", "young-adult"]
+    },
+    {
+        "id": "thelefthandofdarkness-ursulakleguin",
+        "name": "The Left Hand of Darkness",
+        "author-id": "ursulakleguin",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1488213612i/18423.jpg",
+        "publication-date": "01/01/1969",
+        "pages": 304,
+        "goodreads-rating": 4.09,
+        "genres": ["science-fiction", "fiction", "fantasy", "classics", "feminism", "speculative-fiction"]
+    },
+    {
+        "id": "bunny-monaawad",
+        "name": "Bunny",
+        "author-id": "monaawad",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1588043687i/53285047.jpg",
+        "publication-date": "11/06/2019",
+        "pages": 305,
+        "goodreads-rating": 3.54,
+        "genres": ["horror", "fiction", "contemporary", "thriller", "fantasy", "magical-realism", "adult"]
+    },
+    {
+        "id": "thewayofkings-brandonsanderson",
+        "name": "The Way of Kings",
+        "author-id": "brandonsanderson",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659905828i/7235533.jpg",
+        "publication-date": "31/08/2010",
+        "pages": 1007,
+        "goodreads-rating": 4.65,
+        "genres": ["fantasy", "fiction", "epic-fantasy", "high-fantasy", "adult"]
+    },
+    {
+        "id": "thepoppywar-rfkuang",
+        "name": "The Poppy War",
+        "author-id": "rfkuang",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1515691735i/35068705.jpg",
+        "publication-date": "01/05/2018",
+        "pages": 545,
+        "goodreads-rating": 4.17,
+        "genres": ["fantasy", "fiction", "historical", "adult", "high-fantasy"]
+    },
+    {
+        "id": "thedragonrepublic-rfkuang",
+        "name": "The Dragon Republic",
+        "author-id": "rfkuang",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1539963703i/41118857.jpg",
+        "publication-date": "06/08/2019",
+        "pages": 658,
+        "goodreads-rating": 4.38,
+        "genres": ["fantasy", "fiction", "historical", "adult", "high-fantasy"]
+    },
+    {
+        "id": "nobodybutus-laurevanrensburg",
+        "name": "Nobody But Us",
+        "author-id": "laurevanrensburg",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1628537422i/58684533.jpg",
+        "publication-date": "12/04/2022",
+        "pages": 384,
+        "goodreads-rating": 3.2,
+        "genres": ["thriller", "mystery", "fiction", "suspense", "adult", "mystery-thriller", "psychological-thriller"]
+    },
+    {
+        "id": "beachread-emilyhenry",
+        "name": "Beach Read",
+        "author-id": "emilyhenry",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1589881197i/52867387.jpg",
+        "publication-date": "19/05/2020",
+        "pages": 400,
+        "goodreads-rating": 4.02,
+        "genres": ["romance", "contemporary", "fiction", "adult", "chick-lit"]
+    },
+    {
+        "id": "iwhohaveneverknownmen-jacquelineharpman",
+        "name": "I Who Have Never Known Men",
+        "author-id": "jacquelineharpman",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1636235968i/11996.jpg",
+        "publication-date": "01/01/1995",
+        "pages": 208,
+        "goodreads-rating": 4.23,
+        "genres": ["fiction", "science-fiction", "dystopia", "feminism", "literary-fiction", "fantasy", "france"]
+    },
+    {
+        "id": "thewordforworldisforest-ursulakleguin",
+        "name": "The Word for World Is Forest",
+        "author-id": "ursulakleguin",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1283091038i/276767.jpg",
+        "publication-date": "17/03/1972",
+        "pages": 160,
+        "goodreads-rating": 4.03,
+        "genres": ["fiction", "science-fiction", "fantasy", "classics", "speculative-fiction", "novella"]
+    },
+    {
+        "id": "wordsofradiancepart1-brandonsanderson",
+        "name": "Words of Radiance, Part 1",
+        "author-id": "brandonsanderson",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1439186570i/21098320.jpg",
+        "publication-date": "04/03/2014",
+        "pages": 653,
+        "goodreads-rating": 4.71,
+        "genres": ["fantasy", "fiction", "high-fantasy", "epic-fantasy", "adult", "magic"]
+    },
+    {
+        "id": "twistedlove-anahuang",
+        "name": "Twisted Love",
+        "author-id": "anahuang",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1618487915i/55817097.jpg",
+        "publication-date": "29/04/2021",
+        "pages": 360,
+        "goodreads-rating": 3.73,
+        "genres": ["romance", "contemporary", "adult", "fiction", "new-adult"]
+    },
+    {
+        "id": "thesilentpatient-alexmichaelides",
+        "name": "The Silent Patient",
+        "author-id": "alexmichaelides",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1668782119i/40097951.jpg",
+        "publication-date": "05/02/2019",
+        "pages": 336,
+        "goodreads-rating": 4.18,
+        "genres": ["thriller", "mystery", "fiction", "mystery-thriller", "suspense", "crime"]
+    },
+    {
+        "id": "theburninggod-rfkuang",
+        "name": "The Burning God",
+        "author-id": "rfkuang",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1584965579i/45857086.jpg",
+        "publication-date": "17/11/2020",
+        "pages": 622,
+        "goodreads-rating": 4.32,
+        "genres": ["fantasy", "fiction", "historical", "adult", "high-fantasy"]
+    },
+    {
+        "id": "badmonkeys-mattruff",
+        "name": "Bad Monkeys",
+        "author-id": "mattruff",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1300479869i/71845.jpg",
+        "publication-date": "04/07/2007",
+        "pages": 230,
+        "goodreads-rating": 3.62,
+        "genres": ["fiction", "science-fiction", "fantasy", "mystery", "thriller", "crime", "speculative-fiction"]
+    },
+    {
+        "id": "preludetofoundation-isaacasimov",
+        "name": "Prelude to Foundation",
+        "author-id": "isaacasimov",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1335782474i/30013.jpg",
+        "publication-date": "01/05/1988",
+        "pages": 464,
+        "goodreads-rating": 4.15,
+        "genres": ["science-fiction", "fiction", "classics", "fantasy", "space-opera", "space"]
+    },
+    {
+        "id": "thecontingency-gjogden",
+        "name": "The Contingency",
+        "author-id": "gjogden",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1566731316l/52386651.jpg",
+        "publication-date": "20/09/2019",
+        "pages": 293,
+        "goodreads-rating": 3.93,
+        "genres": ["fiction", "science-fiction", "space"]
+    },
+    {
+        "id": "sometimesilie-alicefeeney",
+        "name": "Sometimes I Lie",
+        "author-id": "alicefeeney",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1498135142i/32326398.jpg",
+        "publication-date": "23/03/2017",
+        "pages": 387,
+        "goodreads-rating": 3.79,
+        "genres": ["thriller", "mystery", "fiction", "mystery-thriller", "suspense", "psychological-thriller"]
+    },
+    {
+        "id": "flawless-elsiesilver",
+        "name": "Flawless",
+        "author-id": "elsiesilver",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1653054148i/60755618.jpg",
+        "publication-date": "24/06/2022",
+        "pages": 424,
+        "goodreads-rating": 4.12,
+        "genres": ["romance", "sports-romance", "contemporary", "sports", "westerns", "adult"]
+    },
+    {
+        "id": "guardsguards-terrypratchett",
+        "name": "Guards! Guards!",
+        "author-id": "terrypratchett",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1431127356i/64216.jpg",
+        "publication-date": "01/08/1989",
+        "pages": 376,
+        "goodreads-rating": 4.33,
+        "genres": ["fantasy", "fiction", "humor", "comedy", "dragons"]
+    },
+    {
+        "id": "prideandprejudice-janeausten",
+        "name": "Pride and Prejudice",
+        "author-id": "janeausten",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320399351i/1885.jpg",
+        "publication-date": "28/01/1813",
+        "pages": 279,
+        "goodreads-rating": 4.28,
+        "genres": ["classics", "fiction", "romance", "historical", "literary-fiction"]
+    },
+    {
+        "id": "foundation-isaacasimov",
+        "name": "Foundation",
+        "author-id": "isaacasimov",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1417900846i/29579.jpg",
+        "publication-date": "30/08/1951",
+        "pages": 244,
+        "goodreads-rating": 4.17,
+        "genres": ["science-fiction", "fiction", "classics", "fantasy", "space-opera"]
+    },
+    {
+        "id": "exhalation-tedchiang",
+        "name": "Exhalation",
+        "author-id": "tedchiang",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1534388394i/41160292.jpg",
+        "publication-date": "07/05/2019",
+        "pages": 368,
+        "goodreads-rating": 4.27,
+        "genres": ["short-stories", "science-fiction", "fiction", "fantasy", "speculative-fiction"]
+    },
+    {
+        "id": "thetimemachine-hgwells",
+        "name": "The Time Machine",
+        "author-id": "hgwells",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327942880i/2493.jpg",
+        "publication-date": "01/01/1895",
+        "pages": 118,
+        "goodreads-rating": 3.89,
+        "genres": ["classics", "science-fiction", "fiction", "time-travel", "fantasy", "dystopia", "literary-fiction"]
+    }
+]

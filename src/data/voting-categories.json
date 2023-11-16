@@ -1,0 +1,20 @@
+[
+    {   
+        "id": "golden-tubby",
+        "name": "The Golden Tubby",
+        "type": "shared",
+        "options": 5
+    },
+    {   
+        "id": "was-that-this-year",
+        "name": "Was That This Year?",
+        "type": "shared",
+        "options": 3
+    },
+    {   
+        "id": "frickin-dumb-doo-doo-tubby",
+        "name": "The Frickin Dumb Doo-doo Tubby",
+        "type": "shared",
+        "options": 5
+    }
+]

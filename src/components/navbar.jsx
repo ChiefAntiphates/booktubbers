@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import React, { useContext } from "react";
-import GlobalContext from "./context/global-context";
+import GlobalContext from "../context/global-context";
+import '../css/nav.css'
 
 export default function Header() {
     const { state, /*dispatch*/ } = useContext(GlobalContext);
@@ -8,8 +9,10 @@ export default function Header() {
     const capitalise = word => word.charAt(0).toUpperCase() + word.slice(1)
     console.log(state.user == null)
     return (
-        <div>
+        <nav>
+            <p><Link to='/vote'>Vote</Link></p>
             {state.user == null ? <p><Link to='/verify'>Verify yourself as a Tubber</Link></p> : <p>Welcome, Brother {capitalise(state.user)}</p>}
-        </div>
+            <p>Library</p>
+        </nav>
     );
 }

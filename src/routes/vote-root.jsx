@@ -1,10 +1,9 @@
-import votingData from './data.json';
+import categories from '../data/voting-categories.json';
 import { Link } from "react-router-dom";
 import React, { useContext } from "react";
-import GlobalContext from "./context/global-context";
+import GlobalContext from "../context/global-context";
 
 export default function Vote() {
-    const categories = votingData['voting-categories'];
     const { state, /*dispatch*/ } = useContext(GlobalContext);
 
     

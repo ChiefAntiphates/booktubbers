@@ -1,0 +1,190 @@
+{
+    "harry": [
+        {
+            "book-id": "theracketeer-johngrisham",
+            "book-club-date": "01/01/2023",
+            "rating": 4,
+            "quote": "Gripping style of writing."
+        },
+        {
+            "book-id": "thetwelvetopsyturvyverymessydaysofchristmas-jamespatterson",
+            "book-club-date": "01/01/2023",
+            "rating": 1.5,
+            "quote": "This is a children's book."
+        },
+        {
+            "book-id": "thesatsumacomplex-bobmortimer",
+            "book-club-date": "15/01/2023",
+            "rating": 2.5,
+            "quote": "This is the most fine book I've ever read."
+        },
+        {
+            "book-id": "allsystemsred-marthawells",
+            "book-club-date": "15/01/2023",
+            "rating": 3.5,
+            "quote": "Loveable protagonist. Bad plot."
+        },
+        {
+            "book-id": "howtocreateaveganworldapragmaticapproach-tobiasleenaert",
+            "book-club-date": "15/01/2023",
+            "rating": 5,
+            "quote": "Exactly what I needed."
+        },
+        {
+            "book-id": "fromsandandash-amyharmon",
+            "book-club-date": "15/01/2023",
+            "rating": 5,
+            "quote": "A haunting story where never lose hope as the reader."
+        },
+        {
+            "book-id": "thewayofkings-brandonsanderson",
+            "book-club-date": "12/02/2023",
+            "rating": 3.5,
+            "quote": "There is an amazing story here that is bogged down by setting up other stories."
+        },
+        {
+            "book-id": "thewordforworldisforest-ursulakleguin",
+            "book-club-date": "26/02/2023",
+            "rating": 2,
+            "quote": "A nice addition to the universe but fails to hit the mark."
+        },
+        {
+            "book-id": "wordsofradiancepart1-brandonsanderson",
+            "book-club-date": "12/03/2023",
+            "rating": 2.5,
+            "quote": "Probably a good book, that felt like a chore to read."
+        },
+        {
+            "book-id": "thesilentpatient-alexmichaelides",
+            "book-club-date": "16/04/2023",
+            "rating": 3,
+            "quote": "Highly unlikeable characters in a compelling read."
+        },
+        {
+            "book-id": "preludetofoundation-isaacasimov",
+            "book-club-date": "25/06/2023",
+            "rating": 3,
+            "quote": "An attempt at a sci-fi epic that misses the mark. Last ten pages were wild."
+        },
+        {
+            "book-id": "guardsguards-terrypratchett",
+            "book-club-date": "25/06/2023",
+            "rating": 2,
+            "quote": "Fantasy in a tone I should enjoy but remains too muddled for a casual read."
+        },
+        {
+            "book-id": "prideandprejudice-janeausten",
+            "book-club-date": "25/06/2023",
+            "rating": 3.5,
+            "quote": "Far more timeless than I expected. Witty!"
+        },
+        {
+            "book-id": "foundation-isaacasimov",
+            "book-club-date": "25/06/2023",
+            "rating": 4,
+            "quote": "A sci-fi classic that feels ahead of its time."
+        },
+        {
+            "book-id": "exhalation-tedchiang",
+            "book-club-date": "25/06/2023",
+            "rating": 4,
+            "quote": "Stories that make you feel and think."
+        },
+        {
+            "book-id": "thetimemachine-hgwells",
+            "book-club-date": "25/06/2023",
+            "rating": 3.5,
+            "quote": "Immensely more readable than War of the Worlds."
+        }
+    ],
+    "ollie": [
+        {
+            "book-id": "theswordofkaigen-mlwang",
+            "book-club-date": "15/01/2023",
+            "rating": 4,
+            "quote": "Yummy in my tummy but questionable at some points."
+        },
+        {
+            "book-id": "thepoppywar-rfkuang",
+            "book-club-date": "12/02/2023",
+            "rating": 4,
+            "quote": "Easy read but Jesus... What is this?!"
+        },
+        {
+            "book-id": "thedragonrepublic-rfkuang",
+            "book-club-date": "12/02/2023",
+            "rating": 4,
+            "quote": "Ahhhh so you won, but wait! You still have to kill everyone."
+        },
+        {
+            "book-id": "theburninggod-rfkuang",
+            "book-club-date": "12/03/2023",
+            "rating": 4,
+            "quote": "Oh they died, and then they died and then these three people died and it ended. Nice."
+        },
+        {
+            "book-id": "thecontingency-gjogden",
+            "book-club-date": "25/06/2023",
+            "rating": 2.5,
+            "quote": "Cool premise. Didn't connect."
+        }
+    ],
+    "bethany": [
+        {
+            "book-id": "november9-colleenhoover",
+            "book-club-date": "15/01/2023",
+            "rating": 1,
+            "quote": "It was good until it wasn't."
+        },
+        {
+            "book-id": "nobodybutus-laurevanrensburg",
+            "book-club-date": "12/02/2023",
+            "rating": 3,
+            "quote": "A suspenseful read - a page turner."
+        },
+        {
+            "book-id": "twistedlove-anahuang",
+            "book-club-date": "12/03/2023",
+            "rating": 1,
+            "quote": "I feel people fought for many years for this to not exist."
+        },
+        {
+            "book-id": "sometimesilie-alicefeeney",
+            "book-club-date": "25/06/2023",
+            "rating": 3,
+            "quote": "Whiplash."
+        }
+    ],
+    "katie": [
+        {
+            "book-id": "fromsandandash-amyharmon",
+            "book-club-date": "15/01/2023",
+            "rating": 5,
+            "quote": "A beautifully written story. I love the characters."
+        },
+        {
+            "book-id": "bunny-monaawad",
+            "book-club-date": "29/01/2023",
+            "rating": 3,
+            "quote": "Well written but strange."
+        },
+        {
+            "book-id": "beachread-emilyhenry",
+            "book-club-date": "12/02/2023",
+            "rating": 3,
+            "quote": "A nice light-hearted read."
+        },
+        {
+            "book-id": "thesilentpatient-alexmichaelides",
+            "book-club-date": "12/03/2023",
+            "rating": 4,
+            "quote": "Gripping book with great twists."
+        },
+        {
+            "book-id": "flawless-elsiesilver",
+            "book-club-date": "25/06/2023",
+            "rating": 4,
+            "quote": "Easy to read. No drama. About cowboys lol."
+        }
+    ]
+}

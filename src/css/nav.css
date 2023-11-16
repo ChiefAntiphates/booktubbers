@@ -1,0 +1,14 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+}
+
+nav * {
+    padding: 10px
+}

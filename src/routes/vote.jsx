@@ -1,9 +1,14 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
-import votingData from './data.json';
-import BookCard from "./book-card";
+import categories from '../data/voting-categories.json';
+import books from '../data/books.json'
+import authors from '../data/authors.json'
+import sharedReads from '../data/shared-reads.json'
+import individualReads from '../data/individual-reads.json'
+import tubbersData from '../data/tubbers-info.json'
+import BookCard from "../components/book-card";
 import React, { useContext } from "react";
-import GlobalContext from "./context/global-context";
-import ACTIONS from "./context/actions";
+import GlobalContext from "../context/global-context";
+import ACTIONS from "../context/actions";
 
 export default function Category() {
     const navigateTo = useNavigate();
@@ -20,7 +25,7 @@ export default function Category() {
     }
 
     const {categoryId} = useParams();
-    const category = votingData["voting-categories"].find(category => {
+    const category = categories.find(category => {
         return category.id == categoryId
     })
 
@@ -40,20 +45,21 @@ export default function Category() {
             case "member":
                 break;
             case "shared":
-                const sharedBooks = votingData['shared-reads']
                 return (
-                    <>{sharedBooks.map(read => {
-                        let book = votingData.books.find(book => book.id == read['book-id'])
-                        let author = votingData.authors.find(author => author.id == book['author-id'])
+                    <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr'}}>
+                        {sharedReads.map(read => {
+                        let book = books.find(book => book.id == read['book-id'])
+                        let author = authors.find(author => author.id == book['author-id'])
                         return(
                             <BookCard 
                                 key={book.id}
                                 book={book}
                                 author={author}
-                                review={read.review}
+                                review={read.review[state.user]}
                             />
                         )
-                    })}</>
+                    })}
+                    </div>
                 )
         }
     }
@@ -61,7 +67,7 @@ export default function Category() {
 
     return (
         <>
-        <div style={{display: 'flex'}}>
+        <div>
             <div className="voting">
                 <p>{category.name}</p>
                 <p>{category.type}</p>

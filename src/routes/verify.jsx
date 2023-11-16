@@ -1,7 +1,7 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
 import React, { useContext, useState } from "react";
-import GlobalContext from "./context/global-context";
-import ACTIONS from "./context/actions";
+import GlobalContext from "../context/global-context";
+import ACTIONS from "../context/actions";
 import { Form } from 'react-bootstrap';
 
 const MEMBERS = [
