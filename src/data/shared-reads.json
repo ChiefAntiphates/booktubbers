@@ -90,5 +90,28 @@
                 "quote": "Had potential but did not enjoy."
             }
         }
+    },
+    {
+        "book-id": "tomorrowandtomorrowandtomorrow-gabriellezevin",
+        "book-club-date": "09/08/2023",
+        "suggested-by": "bethany",
+        "review" : {
+            "harry": {
+                "rating": 4.5,
+                "quote": "Morally complicated, like real life."
+            },
+            "ollie": {
+                "rating": 3.5,
+                "quote": "Creeps in this pretty pace from day to day. Good book. Annoying characters."
+            },
+            "bethany": {
+                "rating": 3.75,
+                "quote": "An enjoyable read about life."
+            },
+            "katie": {
+                "rating": 3.5,
+                "quote": "Immersive read with life-like characters."
+            }
+        }
     }
 ]

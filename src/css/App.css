@@ -46,3 +46,11 @@
 .read-the-docs {
   color: #888;
 }
+
+.categoryName {
+  border-radius: 2px;
+}
+
+.categoryName:hover {
+  background-color: beige;
+}

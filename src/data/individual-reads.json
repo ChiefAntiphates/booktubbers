@@ -95,6 +95,24 @@
             "book-club-date": "25/06/2023",
             "rating": 3.5,
             "quote": "Immensely more readable than War of the Worlds."
+        },
+        {
+            "book-id": "changingplanes-ursulakleguin",
+            "book-club-date": "16/07/2023",
+            "rating": 3,
+            "quote": "Drop the boring ones and give me the narrative."
+        },
+        {
+            "book-id": "dune-frankherbert",
+            "book-club-date": "13/08/2023",
+            "rating": 4.5,
+            "quote": "Oh no! Look out for the giant worm!"
+        },
+        {
+            "book-id": "projecthailmary-andyweir",
+            "book-club-date": "13/08/2023",
+            "rating": 3.5,
+            "quote": "Teach me science one, hey, that's pretty cool. Teach me science twice, shut up, I'm bored."
         }
     ],
     "ollie": [
@@ -120,13 +138,31 @@
             "book-id": "theburninggod-rfkuang",
             "book-club-date": "12/03/2023",
             "rating": 4,
-            "quote": "Oh they died, and then they died and then these three people died and it ended. Nice."
+            "quote": "Oh they died, and then they died, and then these three people died and it ended. Nice."
         },
         {
             "book-id": "thecontingency-gjogden",
             "book-club-date": "25/06/2023",
             "rating": 2.5,
             "quote": "Cool premise. Didn't connect."
+        },
+        {
+            "book-id": "ritahayworthandshawshankredemption-stephenking",
+            "book-club-date": "16/07/2023",
+            "rating": 3.75,
+            "quote": "Good. Great. Fluff. Solid."
+        },
+        {
+            "book-id": "thefinalempire-brandonsanderson",
+            "book-club-date": "13/08/2023",
+            "rating": 4.75,
+            "quote": "Okay, we are building up to something here... O..."
+        },
+        {
+            "book-id": "thewellofascension-brandonsanderson",
+            "book-club-date": "13/08/2023",
+            "rating": 4.5,
+            "quote": "Gives Hobbit vibes, but there is metal in my tum."
         }
     ],
     "bethany": [
@@ -153,6 +189,18 @@
             "book-club-date": "25/06/2023",
             "rating": 3,
             "quote": "Whiplash."
+        },
+        {
+            "book-id": "sinceyouvebeengone-morganmatson",
+            "book-club-date": "16/07/2023",
+            "rating": 4,
+            "quote": "Lovely enjoyable read."
+        },
+        {
+            "book-id": "daisyjonesandthesix-taylorjenkinsreid",
+            "book-club-date": "13/08/2023",
+            "rating": 5,
+            "quote": "Reminded me why I love reading."
         }
     ],
     "katie": [
@@ -185,6 +233,18 @@
             "book-club-date": "25/06/2023",
             "rating": 4,
             "quote": "Easy to read. No drama. About cowboys lol."
+        },
+        {
+            "book-id": "youshouldnthavecomehere-jenevarose",
+            "book-club-date": "16/07/2023",
+            "rating": 4,
+            "quote": "A captivating thriller."
+        },
+        {
+            "book-id": "meetmeatthelake-carleyfortune",
+            "book-club-date": "13/08/2023",
+            "rating": 2.5,
+            "quote": "Cookie-cutter book - enjoyable but no real description so less summer vibes than I expected."
         }
     ]
 }

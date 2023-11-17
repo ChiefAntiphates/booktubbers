@@ -133,5 +133,45 @@
         "id": "hgwells",
         "name": "H.G. Wells",
         "gender": "male"
+    },
+    {
+        "id": "stephenking",
+        "name": "Stephen King",
+        "gender": "male"
+    },
+    {
+        "id": "morganmatson",
+        "name": "Morgan Matson",
+        "gender": "female"
+    },
+    {
+        "id": "jenevarose",
+        "name": "Jeneva Rose",
+        "gender": "female"
+    },
+    {
+        "id": "gabriellezevin",
+        "name": "Gabrielle Zevin",
+        "gender": "female"
+    },
+    {
+        "id": "frankherbert",
+        "name": "Frank Herbert",
+        "gender": "male"
+    },
+    {
+        "id": "andyweir",
+        "name": "Andy Weir",
+        "gender": "male"
+    },
+    {
+        "id": "taylorjenkinsreid",
+        "name": "Taylor Jenkins Reid",
+        "gender": "female"
+    },
+    {
+        "id": "carleyfortune",
+        "name": "Carley Fortune",
+        "gender": "female"
     }
 ]
