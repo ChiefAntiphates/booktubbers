@@ -4,28 +4,61 @@ import processedBooks from "../utils/process-books";
 import tubberData from "../data/tubbers-info.json"
 import { capitalise } from "../utils/common"
 import { Form } from 'react-bootstrap';
+import { filterByMember } from "../utils/filters";
+
+const SORT_BY = {
+    DATE_READ_LAST: 'Date Last Read',
+    DATE_READ_FIRST: 'Date First Read',
+    DATE: 'Date Published',
+    AUTHOR: 'Author',
+    NAME: 'Name',
+    RATING: 'Rating'
+}
 
 export default function Library() {
     const [books, setBooks] = useState(processedBooks)
     const [memberFilter, setMemberFilter] = useState("all")
+    const [sortBy, setSortBy] = useState(SORT_BY.DATE)
+    const [sortAscending,setSortAscending] = useState('true')
 
     useEffect(() => {
-        let filteredBooks = processedBooks
+        let filteredBooks = processedBooks;
         
-        if (memberFilter != "all") { 
-                filteredBooks = filteredBooks.filter(book => {
-                book.reads.find(read => {
-                    console.log(read)
-                    console.log(read.member)
-                    return(read.member == memberFilter)
-                })
-                return(book.reads.find(read => read.member == memberFilter))
-            })
-        }
-        setBooks(filteredBooks)
-    }, [memberFilter])
+        filteredBooks = filterByMember(memberFilter, filteredBooks);
+        
+        setBooks(filteredBooks);
+    }, [memberFilter]);
 
-    console.log(books)
+    useEffect(() => {
+        let sortFunction = (a,b) => 1
+        switch(sortBy) {
+            case SORT_BY.AUTHOR:
+                sortFunction = (a,b) => a["author-id"] > b["author-id"] ? 1 : -1
+                break;
+            case SORT_BY.DATE:
+                break;
+            case SORT_BY.NAME:
+                break;
+            case SORT_BY.RATING:
+                break;
+            case SORT_BY.DATE_READ_LAST:
+                break;
+            case SORT_BY.DATE_READ_FIRST:
+        };
+
+        setBooks(prev => {
+            let sorted = [...prev]
+            return sorted.sort((a,b) =>{
+                let result = sortFunction(a,b)
+                if (sortAscending != 'true') {result *= -1}
+                return result
+            })})
+    }, [sortBy, sortAscending]);
+
+    useEffect(() => {
+        console.log("books changed")
+        console.log(books)
+    }, [books])
     
     return (
     <div>
@@ -42,7 +75,17 @@ export default function Library() {
                 
             </div>
             <div style={{display: 'flex'}}>
-                <h3>Sort:</h3>
+                <h3 style={{marginRight: '2rem'}}>Sort by:</h3>
+            <Form.Select value={sortBy} onChange={e=>setSortBy(e.target.value)}>
+                {[SORT_BY.AUTHOR, SORT_BY.DATE, SORT_BY.NAME, 
+                SORT_BY.RATING, SORT_BY.DATE_READ_FIRST, SORT_BY.DATE_READ_LAST].map((val) => {
+                    return <option key={val} value={val}>{capitalise(val)}</option>;
+                })}
+            </Form.Select>
+            <Form.Select value={sortAscending} onChange={e=>setSortAscending(e.target.value)}>
+                <option value={'true'}>Ascending</option>;
+                <option value={'false'}>Descending</option>;
+            </Form.Select>
             </div>
         </div>
         <div style={{
