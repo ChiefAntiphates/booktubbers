@@ -113,5 +113,51 @@
                 "quote": "Immersive read with life-like characters."
             }
         }
+    },
+    {
+        "book-id": "allthatsleftintheworld-erikjbrown",
+        "book-club-date": "08/09/2023",
+        "suggested-by": "harry",
+        "review" : {
+            "harry": {
+                "rating": 3,
+                "quote": "The apocalypse has been more exciting."
+            },
+            "ollie": {
+                "rating": 2,
+                "quote": "Ok. Ok. Damn, that's pretty random."
+            },
+            "bethany": {
+                "rating": 3,
+                "quote": "Enjoyable read (but with some question marks)."
+            },
+            "katie": {
+                "rating": 3,
+                "quote": "Enjoyed the characters but the writing had some faults."
+            }
+        }
+    },
+    {
+        "book-id": "theonlyoneleft-rileysager",
+        "book-club-date": "19/11/2023",
+        "suggested-by": "katie",
+        "review" : {
+            "harry": {
+                "rating": 2.5,
+                "quote": "Stop. You've got something, now stop. Stop now."
+            },
+            "ollie": {
+                "rating": 2,
+                "quote": "Guess what, your gran is your dad."
+            },
+            "bethany": {
+                "rating": 2.5,
+                "quote": "Middle carried. End ruined. Sometimes less is more."
+            },
+            "katie": {
+                "rating": 2,
+                "quote": "Slow beginning and crazy ending... in a bad way."
+            }
+        }
     }
 ]

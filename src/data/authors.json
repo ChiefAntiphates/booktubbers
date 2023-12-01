@@ -173,5 +173,75 @@
         "id": "carleyfortune",
         "name": "Carley Fortune",
         "gender": "female"
+    },
+    {
+        "id": "hyhanna",
+        "name": "H.Y. Hanna",
+        "gender": "female"
+    },
+    {
+        "id": "cathymansell",
+        "name": "Cathy Mansell",
+        "gender": "female"
+    },
+    {
+        "id": "erikjbrown",
+        "name": "Erik J. Brown",
+        "gender": "male"
+    },
+    {
+        "id": "katedylan",
+        "name": "Kate Dylan",
+        "gender": "female"
+    },
+    {
+        "id": "georgeorwell",
+        "name": "George Orwell",
+        "gender": "male"
+    },
+    {
+        "id": "sheilafitzpatrick",
+        "name": "Sheila Fitzpatrick",
+        "gender": "female"
+    },
+    {
+        "id": "catelawley",
+        "name": "Cate Lawley",
+        "gender": "female"
+    },
+    {
+        "id": "beckychambers",
+        "name": "Becky Chambers",
+        "gender": "female"
+    },
+    {
+        "name": "Lisa Jewell",
+        "id": "lisajewell",
+        "gender": "female"
+    },
+    {
+        "name": "Claire Douglas",
+        "id": "clairedouglas",
+        "gender": "female"
+    },
+    {
+        "name": "Riley Sager",
+        "id": "rileysager",
+        "gender": "male"
+    },
+    {
+        "name": "Saba Sams",
+        "id": "sabasams",
+        "gender": "female"
+    },
+    {
+        "name": "Ernest Cline",
+        "id": "ernestcline",
+        "gender": "male"
+    },
+    {
+        "name": "B.D. Smith",
+        "id": "bdsmith",
+        "gender": "male"
     }
 ]

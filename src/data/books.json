@@ -428,5 +428,165 @@
         "pages": 336,
         "goodreads-rating": 3.72,
         "genres": ["romance", "fiction", "contemporary", "adult", "chick-lit"]
+    },
+    {
+        "id": "flipflopsandmurder-hyhanna",
+        "name": "Flip-Flops and Murder",
+        "author-id": "hyhanna",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1595644847i/54665194.jpg",
+        "publication-date": "01/08/2020",
+        "pages": 219,
+        "goodreads-rating": 4.07,
+        "genres": ["mystery", "cozy-mystery", "fiction", "contemporary", "crime", "animals"]
+    },
+    {
+        "id": "theheroofages-brandonsanderson",
+        "name": "The Hero of Ages",
+        "author-id": "brandonsanderson",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1628563911i/2767793.jpg",
+        "publication-date": "14/10/2008",
+        "pages": 572,
+        "goodreads-rating": 4.53,
+        "genres": ["fiction", "fantasy", "epic-fantasy", "high-fantasy", "adult", "magic"]
+    },
+    {
+        "id": "thedublingirls-cathymansell",
+        "name": "The Dublin Girls",
+        "author-id": "cathymansell",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1582054333i/51470109.jpg",
+        "publication-date": "23/07/2020",
+        "pages": 404,
+        "goodreads-rating": 4.28,
+        "genres": ["fiction", "historical", "ireland"]
+    },
+    {
+        "id": "allthatsleftintheworld-erikjbrown",
+        "name": "All That’s Left in the World",
+        "author-id": "erikjbrown",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1624548105i/58329296.jpg",
+        "publication-date": "08/03/2022",
+        "pages": 345,
+        "goodreads-rating": 4.25,
+        "genres": ["lgbt", "romance", "young-adult", "dystopia", "science-fiction", "fiction"]
+    },
+    {
+        "id": "mindwalker-katedylan",
+        "name": "Mindwalker",
+        "author-id": "katedylan",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1653573162i/58795554.jpg",
+        "publication-date": "01/09/2022",
+        "pages": 315,
+        "goodreads-rating": 4.09,
+        "genres": ["science-fiction", "fiction", "young-adult", "fantasy", "dystopia", "romance", "cyberpunk"]
+    },
+    {
+        "id": "animalfarm-georgeorwell",
+        "name": "Animal Farm",
+        "author-id": "georgeorwell",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1299097929i/3149348.jpg",
+        "publication-date": "17/08/1945",
+        "pages": 95,
+        "goodreads-rating": 3.98,
+        "genres": ["fiction", "classics", "dystopia", "fantasy", "politics", "literary-fiction"]
+    },
+    {
+        "id": "theshortesthistoryofthesovietunion-sheilafitzpatrick",
+        "name": "The Shortest History of the Soviet Union",
+        "author-id": "sheilafitzpatrick",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649425502i/59679063.jpg",
+        "publication-date": "01/03/2022",
+        "pages": 256,
+        "goodreads-rating": 3.85,
+        "genres": ["non-fiction", "russia", "historical", "politics", "soviet-union"]
+    },
+    {
+        "id": "adventuresofaveganvamp-catelawley",
+        "name": "Adventures of a Vegan Vamp",
+        "author-id": "catelawley",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673407339i/75720483.jpg",
+        "publication-date": "28/09/2016",
+        "pages": 216,
+        "goodreads-rating": 4.08,
+        "genres": ["fiction", "paranormal", "fantasy", "mystery", "vampires", "cozy-mystery", "urban-fantasy"]
+    },
+    {
+        "id": "maliburising-taylorjenkinsreid",
+        "name": "Malibu Rising",
+        "author-id": "taylorjenkinsreid",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1618293107i/55404546.jpg",
+        "publication-date": "27/05/2021",
+        "pages": 369,
+        "goodreads-rating": 4.05,
+        "genres": ["fiction", "historical", "contemporary", "romance", "adult"]
+    },
+    {
+        "id": "thelongwaytoasmallangryplanet-beckychambers",
+        "name": "The Long Way to a Small, Angry Planet",
+        "author-id": "beckychambers",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1405532474i/22733729.jpg",
+        "publication-date": "29/07/2014",
+        "pages": 518,
+        "goodreads-rating": 4.18,
+        "genres": ["science-fiction", "fiction", "space-opera", "lgbt", "fantasy", "adult", "space"]
+    },
+    {
+        "id": "thenshewasgone-lisajewell",
+        "name": "Then She Was Gone",
+        "author-id": "lisajewell",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1523891273i/35297426.jpg",
+        "publication-date": "27/07/2017",
+        "pages": 359,
+        "goodreads-rating": 4.06,
+        "genres": ["fiction", "thriller", "mystery", "mystery-thriller", "suspense", "crime"]
+    },
+    {
+        "id": "thewomanwholied-clairedouglas",
+        "name": "The Woman Who Lied",
+        "author-id": "clairedouglas",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1677854695i/62549616.jpg",
+        "publication-date": "06/07/2023",
+        "pages": 384,
+        "goodreads-rating": 4.04,
+        "genres": ["thriller", "mystery", "mystery-thriller", "fiction", "crime", "psychological-thriller"]
+    },
+    {
+        "id": "theonlyoneleft-rileysager",
+        "name": "The Only One Left",
+        "author-id": "rileysager",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1668181003i/62703226.jpg",
+        "publication-date": "20/06/2023",
+        "pages": 385,
+        "goodreads-rating": 4.16,
+        "genres": ["thriller", "mystery", "mystery-thriller", "fiction", "horror", "gothic"]
+    },
+    {
+        "id": "sendnudes-sabasams",
+        "name": "Send Nudes",
+        "author-id": "sabasams",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649339576i/58612901.jpg",
+        "publication-date": "20/01/2020",
+        "pages": 224,
+        "goodreads-rating": 3.55,
+        "genres": ["short-stories", "fiction", "contemporary", "feminism", "literary-fiction", "adult"]
+    },
+    {
+        "id": "readyplayerone-ernestcline",
+        "name": "Ready Player One",
+        "author-id": "ernestcline",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1500930947i/9969571.jpg",
+        "publication-date": "16/08/2011",
+        "pages": 374,
+        "goodreads-rating": 4.23,
+        "genres": ["fiction", "science-fiction", "young-adult", "fantasy", "dystopia"]
+    },
+    {
+        "id": "theicemaiden-bdsmith",
+        "name": "The Ice Maiden",
+        "author-id": "bdsmith",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1493697511i/35049383.jpg",
+        "publication-date": "20/04/2017",
+        "pages": 185,
+        "goodreads-rating": 4.13,
+        "genres": ["fiction", "mystery", "thriller", "mystery-thriller", "crime", "suspense", "detective", "canada"]
     }
 ]

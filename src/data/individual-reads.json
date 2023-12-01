@@ -113,6 +113,60 @@
             "book-club-date": "13/08/2023",
             "rating": 3.5,
             "quote": "Teach me science one, hey, that's pretty cool. Teach me science twice, shut up, I'm bored."
+        },
+        {
+            "book-id": "flipflopsandmurder-hyhanna",
+            "book-club-date": "21/08/2023",
+            "rating": 2,
+            "quote": "The coziest murder I have ever read."
+        },
+        {
+            "book-id": "ritahayworthandshawshankredemption-stephenking",
+            "book-club-date": "21/08/2023",
+            "rating": 2,
+            "quote": "I'm getting bad vibes from Stephen King."
+        },
+        {
+            "book-id": "mindwalker-katedylan",
+            "book-club-date": "08/09/2023",
+            "rating": 4,
+            "quote": "Footsteps were definitely left on my mind."
+        },
+        {
+            "book-id": "animalfarm-georgeorwell",
+            "book-club-date": "14/10/2023",
+            "rating": 4.5,
+            "quote": "Napoleon is always right."
+        },
+        {
+            "book-id": "theshortesthistoryofthesovietunion-sheilafitzpatrick",
+            "book-club-date": "14/10/2023",
+            "rating": 4,
+            "quote": "Vodka ruined Russia."
+        },
+        {
+            "book-id": "adventuresofaveganvamp-catelawley",
+            "book-club-date": "14/10/2023",
+            "rating": 1,
+            "quote": "It sucked. Don't pardon the pun."
+        },
+        {
+            "book-id": "thelongwaytoasmallangryplanet-beckychambers",
+            "book-club-date": "14/10/2023",
+            "rating": 4,
+            "quote": "Lizard people do love to yeehaw."
+        },
+        {
+            "book-id": "thefinalempire-brandonsanderson",
+            "book-club-date": "19/11/2023",
+            "rating": 4,
+            "quote": "This story is a lot like me on boxing day: a lot of fun but a bit flabby in the middle."
+        },
+        {
+            "book-id": "theicemaiden-bdsmith",
+            "book-club-date": "19/11/2023",
+            "rating": 0.25,
+            "quote": "Some of it was grammatically correct."
         }
     ],
     "ollie": [
@@ -163,6 +217,24 @@
             "book-club-date": "13/08/2023",
             "rating": 4.5,
             "quote": "Gives Hobbit vibes, but there is metal in my tum."
+        },
+        {
+            "book-id": "theheroofages-brandonsanderson",
+            "book-club-date": "21/08/2023",
+            "rating": 5,
+            "quote": "He's cooking, he's brewing. Bro, he just did that."
+        },
+        {
+            "book-id": "dune-frankherbert",
+            "book-club-date": "14/10/2023",
+            "rating": 3.75,
+            "quote": "Why you lyin'"
+        },
+        {
+            "book-id": "readyplayerone-ernestcline",
+            "book-club-date": "19/11/2023",
+            "rating": 3.5,
+            "quote": "NO QUOTE GIVEN"
         }
     ],
     "bethany": [
@@ -201,6 +273,36 @@
             "book-club-date": "13/08/2023",
             "rating": 5,
             "quote": "Reminded me why I love reading."
+        },
+        {
+            "book-id": "fromsandandash-amyharmon",
+            "book-club-date": "21/08/2023",
+            "rating": 5,
+            "quote": "A beautiful tragic read."
+        },
+        {
+            "book-id": "maliburising-taylorjenkinsreid",
+            "book-club-date": "14/10/2023",
+            "rating": 4,
+            "quote": "A very nice way to end the summer."
+        },
+        {
+            "book-id": "thenshewasgone-lisajewell",
+            "book-club-date": "14/10/2023",
+            "rating": 4,
+            "quote": "Poor hamster."
+        },
+        {
+            "book-id": "thewomanwholied-clairedouglas",
+            "book-club-date": "14/10/2023",
+            "rating": 2,
+            "quote": "I had higher hopes."
+        },
+        {
+            "book-id": "theicemaiden-bdsmith",
+            "book-club-date": "19/11/2023",
+            "rating": 0.5,
+            "quote": "I'd rather read nothing like that again."
         }
     ],
     "katie": [
@@ -245,6 +347,24 @@
             "book-club-date": "13/08/2023",
             "rating": 2.5,
             "quote": "Cookie-cutter book - enjoyable but no real description so less summer vibes than I expected."
+        },
+        {
+            "book-id": "thedublingirls-cathymansell",
+            "book-club-date": "21/08/2023",
+            "rating": 3.5,
+            "quote": "An enjoyable historical fiction read."
+        },
+        {
+            "book-id": "daisyjonesandthesix-taylorjenkinsreid",
+            "book-club-date": "14/10/2023",
+            "rating": 5,
+            "quote": "Completely understand the hype."
+        },
+        {
+            "book-id": "sendnudes-sabasams",
+            "book-club-date": "19/11/2023",
+            "rating": 2,
+            "quote": "Wanted to enjoy. Messages didn't really land with me."
         }
     ]
 }

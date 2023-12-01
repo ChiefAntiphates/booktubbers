@@ -18,7 +18,7 @@ const SORT_BY = {
 export default function Library() {
     const [books, setBooks] = useState(processedBooks);
     const [memberFilter, setMemberFilter] = useState("all");
-    const [sortBy, setSortBy] = useState(SORT_BY.DATE);
+    const [sortBy, setSortBy] = useState(SORT_BY.DATE_READ_LAST);
 
     useEffect(() => {
         let filteredBooks = processedBooks;
@@ -42,13 +42,13 @@ export default function Library() {
                 sortFunction = (a,b) => a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
                 break;
             case SORT_BY.RATING:
-                sortFunction = (a,b) => a.averageRating > b.averageRating ? 1 : -1
+                sortFunction = (a,b) => a.averageRating < b.averageRating ? 1 : -1
                 break;
             case SORT_BY.DATE_READ_FIRST:
                 sortFunction = (a,b) => new Date(Math.min.apply(null, a.reads.map(read => read.dateFmt))) - new Date(Math.min.apply(null, b.reads.map(read => read.dateFmt)))
                 break;
             case SORT_BY.DATE_READ_LAST:
-                sortFunction = (a,b) => new Date(Math.max.apply(null, a.reads.map(read => read.dateFmt))) - new Date(Math.max.apply(null, b.reads.map(read => read.dateFmt)))
+                sortFunction = (a,b) => new Date(Math.max.apply(null, b.reads.map(read => read.dateFmt))) - new Date(Math.max.apply(null, a.reads.map(read => read.dateFmt)))
         };
 
         setBooks(prev => {
