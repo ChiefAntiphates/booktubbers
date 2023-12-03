@@ -1,7 +1,7 @@
 import React, { useReducer, useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client'
 import {
-  createBrowserRouter,
+  createHashRouter,
   Outlet,
   RouterProvider,
 } from "react-router-dom";
@@ -19,7 +19,7 @@ import Footer from './components/footer.jsx';
 import Library from './routes/library.jsx';
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element: <><Navbar/><Outlet/><Footer/></>, 
     children: [
