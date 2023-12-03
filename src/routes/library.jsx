@@ -17,7 +17,7 @@ const SORT_BY = {
 
 export default function Library() {
     const [books, setBooks] = useState(processedBooks);
-    const [memberFilter, setMemberFilter] = useState("all");
+    const [memberFilter, setMemberFilter] = useState("any");
     const [sortBy, setSortBy] = useState(SORT_BY.DATE_READ_LAST);
 
     useEffect(() => {
@@ -67,7 +67,8 @@ export default function Library() {
                 {tubberData.members.map((val) => {
                     return <option key={val} value={val}>{capitalise(val)}</option>;
                 })}
-                <option value="all">All</option>;
+                <option value="any">Any</option>;
+                <option value="shared">Shared</option>;
             </Form.Select>
                 
             </div>
