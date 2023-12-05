@@ -1,6 +1,6 @@
 export default function BookCard(props) {
-    const {book, author, review, shared=false} = props
-
+    const {book, member} = props
+    const review = book.reads.find(read => read.member == member)
     return (
     <div style={{
             backgroundColor: '#2d3d57', 
@@ -22,16 +22,10 @@ export default function BookCard(props) {
         }}>
             <div>
             <p>{book.name}</p>
-            <p>{author.name}</p>
+            <p>{book.author}</p>
             </div>
-            {shared ?
-                <p>shared</p>
-            :
-                <>
-                <p>{review.rating} Stars</p>
-                <p>"{review.quote}"</p>
-                </>
-            }
+            <p>{review.rating} Stars</p>
+            <p>"{review.quote}"</p>
         </div>
     </div>
     );

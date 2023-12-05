@@ -16,5 +16,11 @@
         "name": "The Frickin Dumb Doo-doo Tubby",
         "type": "shared",
         "options": 5
+    },
+    {   
+        "id": "personal-gem",
+        "name": "Personal Gem",
+        "type": "individual",
+        "options": 1
     }
 ]

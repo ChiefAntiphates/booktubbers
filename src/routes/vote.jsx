@@ -1,14 +1,14 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
 import categories from '../data/voting-categories.json';
-import books from '../data/books.json'
-import authors from '../data/authors.json'
-import sharedReads from '../data/shared-reads.json'
-import individualReads from '../data/individual-reads.json'
-import tubbersData from '../data/tubbers-info.json'
+import { SORT_BY, sort } from "../utils/sorting";
+import { filterByMember } from "../utils/filters";
+import processedBooks from "../utils/process-books";
 import BookCard from "../components/book-card";
-import React, { useContext } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import GlobalContext from "../context/global-context";
 import ACTIONS from "../context/actions";
+import { Form, Button } from 'react-bootstrap';
+import { capitalise } from "../utils/common"
 
 export default function Category() {
     const navigateTo = useNavigate();
@@ -37,43 +37,77 @@ export default function Category() {
             </>
         )
     }
+    
+    const [books, setBooks] = useState(category.type == "shared" ? filterByMember('shared',processedBooks) : filterByMember(state.user,processedBooks));
+    const [sortBy, setSortBy] = useState(SORT_BY.DATE_READ_LAST);
+    const [votes, setVotes] = useState(Array.apply(null, Array(category.options)).map((_, i) => ({ 'rank': i+1, 'value': '$UNDEFINED$' })))
 
-    const getOptions = categoryType => {
-        switch (categoryType){
-            case "individual":
-                break;
-            case "member":
-                break;
-            case "shared":
-                return (
-                    <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr'}}>
-                        {sharedReads.map(read => {
-                        let book = books.find(book => book.id == read['book-id'])
-                        let author = authors.find(author => author.id == book['author-id'])
-                        return(
-                            <BookCard 
-                                key={book.id}
-                                book={book}
-                                author={author}
-                                review={read.review[state.user]}
-                            />
-                        )
-                    })}
-                    </div>
-                )
-        }
-    }
-
+    useEffect(() => {
+        setBooks(prev => {
+            let sorted = [...prev]
+            let sortFunction = sortBy == SORT_BY.RATING ? (a,b) => a.reads.find(read => read.member == state.user).rating < b.reads.find(read => read.member == state.user).rating ? 1 : -1 : sort(sortBy)
+            return sorted.sort(sortFunction)
+        })
+    }, [sortBy]);
+    console.log(votes)
 
     return (
         <>
         <div>
             <div className="voting">
                 <p>{category.name}</p>
-                <p>{category.type}</p>
             </div>
-            <div>
-                {getOptions(category.type)}
+
+            {votes.map(vote => (
+                <div key={vote.rank}>
+                <Form.Select value={vote.value} onChange={e => {
+                    let updated_vote = {...vote, value: e.target.value}
+                    // console.log(votes)
+                    let duplicate = votes.find(old_vote => old_vote.value == e.target.value)
+                    // console.log(duplicate)
+                    // console.log(updated_vote)
+                    duplicate ?
+                    // console.log(duplicate)
+                    setVotes(prev => [...prev.filter(old_vote => {
+                        // console.log(old_vote)
+                        // console.log(duplicate)
+                        // console.log(updated_vote)
+                        // console.log(old_vote.rank != updated_vote.rank && duplicate.rank != old_vote.rank)
+                        return old_vote.rank != updated_vote.rank && duplicate.rank != old_vote.rank
+                    }), updated_vote, {rank: duplicate.rank, value: '$UNDEFINED$'}].sort((a,b) => a.rank > b.rank ? 1 : -1))
+                    :
+                    setVotes(prev => [...prev.filter(old_vote => old_vote.rank != updated_vote.rank), updated_vote].sort((a,b) => a.rank > b.rank ? 1 : -1))
+                }} defaultValue="$UNDEFINED$">
+                    {books.map(book => {
+                        return <option key={book.id} value={book.id}>{capitalise(book.name)} - {book.author}</option>;
+                    })}
+                    <option value="$UNDEFINED$" disabled>-</option>
+                </Form.Select>
+                </div>
+            ))}
+            
+            <Button onClick={()=>console.log('hello')}>Vote</Button>
+
+
+            <div style={{display: 'flex'}}>
+                <h3 style={{marginRight: '2rem'}}>Sort by:</h3>
+            <Form.Select value={sortBy} onChange={e=>setSortBy(e.target.value)}>
+                {[SORT_BY.AUTHOR, SORT_BY.DATE, SORT_BY.NAME, 
+                SORT_BY.RATING, SORT_BY.DATE_READ_FIRST, SORT_BY.DATE_READ_LAST].map((val) => {
+                    return <option key={val} value={val}>{capitalise(val)}</option>;
+                })}
+            </Form.Select>
+            </div>
+            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr'}}>
+                        {books.map(book => {
+                            return(
+                                <BookCard 
+                                    key={book.id}
+                                    book={book}
+                                    member={state.user}
+                                />
+                            )
+                    })}
             </div>
         </div>
         <button onClick={()=>{
