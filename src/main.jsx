@@ -54,7 +54,6 @@ const router = createHashRouter([
 
 function App() {
   const [state, dispatch] = useReducer(GlobalReducer, initialState)
-
   return(
     <React.StrictMode>
       <GlobalContext.Provider value={{ state, dispatch }}>
