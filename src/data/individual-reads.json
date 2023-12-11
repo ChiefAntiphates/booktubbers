@@ -167,6 +167,12 @@
             "book-club-date": "19/11/2023",
             "rating": 0.25,
             "quote": "Some of it was grammatically correct."
+        },
+        {
+            "book-id": "foundationandempire-isaacasimov",
+            "book-club-date": "03/12/2023",
+            "rating": 2,
+            "quote": "I have as much to say about this book as Ollie has to say about Ready Player One."
         }
     ],
     "ollie": [
@@ -235,6 +241,12 @@
             "book-club-date": "19/11/2023",
             "rating": 3.5,
             "quote": "NO QUOTE GIVEN"
+        },
+        {
+            "book-id": "americangods-neilgaiman",
+            "book-club-date": "03/12/2023",
+            "rating": 2.75,
+            "quote": "Moving like all the bad parts of Prince Caspian."
         }
     ],
     "bethany": [
@@ -303,6 +315,12 @@
             "book-club-date": "19/11/2023",
             "rating": 0.5,
             "quote": "I'd rather read nothing like that again."
+        },
+        {
+            "book-id": "thegirlswhodisappeared-clairedouglas",
+            "book-club-date": "03/12/2023",
+            "rating": 3,
+            "quote": "It started well and that's about it."
         }
     ],
     "katie": [
@@ -365,6 +383,12 @@
             "book-club-date": "19/11/2023",
             "rating": 2,
             "quote": "Wanted to enjoy. Messages didn't really land with me."
+        },
+        {
+            "book-id": "ourwivesunderthesea-juliaarmfield",
+            "book-club-date": "03/12/2023",
+            "rating": 4,
+            "quote": "Slow paced but has a great atmosphere."
         }
     ]
 }

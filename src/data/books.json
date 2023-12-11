@@ -588,5 +588,45 @@
         "pages": 185,
         "goodreads-rating": 4.13,
         "genres": ["fiction", "mystery", "thriller", "mystery-thriller", "crime", "suspense", "detective", "canada"]
+    },
+    {
+        "id": "foundationandempire-isaacasimov",
+        "name": "Foundation and Empire",
+        "author-id": "isaacasimov",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1391454612i/29581.jpg",
+        "publication-date": "01/01/1952",
+        "pages": 256,
+        "goodreads-rating": 4.22,
+        "genres": ["fiction", "science-fiction", "classics", "space-opera"]
+    },
+    {
+        "id": "thegirlswhodisappeared-clairedouglas",
+        "name": "The Girls Who Disappeared",
+        "author-id": "clairedouglas",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1648486773i/59582133.jpg",
+        "publication-date": "15/09/2022",
+        "pages": 392,
+        "goodreads-rating": 3.91,
+        "genres": ["fiction", "thriller", "mystery", "mystery-thriller", "crime", "suspense"]
+    },
+    {
+        "id": "ourwivesunderthesea-juliaarmfield",
+        "name": "Our Wives Under the Sea",
+        "author-id": "juliaarmfield",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1633437192i/58659343.jpg",
+        "publication-date": "03/03/2022",
+        "pages": 240,
+        "goodreads-rating": 3.81,
+        "genres": ["fiction", "horror", "lgbt", "contemporary", "literary-fiction"]
+    },
+    {
+        "id": "americangods-neilgaiman",
+        "name": "American Gods",
+        "author-id": "neilgaiman",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1462924585i/30165203.jpg",
+        "publication-date": "19/06/2001",
+        "pages": 635,
+        "goodreads-rating": 4.11,
+        "genres": ["fiction", "fantasy", "mythology", "urban-fantasy", "science-fiction"]
     }
 ]
