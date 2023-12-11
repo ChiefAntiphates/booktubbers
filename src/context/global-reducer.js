@@ -9,6 +9,8 @@ const GlobalReducer = (state, action) => {
         case ACTIONS.UPDATE_VOTED:
             Cookies.set("completed_votes", JSON.stringify([action.payload].concat(state.completed_votes)), {SameSite:'Lax'})
             return{...state, completed_votes: [action.payload].concat(state.completed_votes)}
+        case ACTIONS.SENT_VOTES:
+            Cookies.set("voted", true, {SameSite:'Lax'})
         default:
             return state
     }

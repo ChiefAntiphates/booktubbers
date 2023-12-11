@@ -65,7 +65,7 @@ export default function Category() {
                 </div>
 
                 {votes.map(vote => (
-                    <div key={vote.rank} style={{display: 'flex'}}>
+                    <div key={vote.rank} style={{display: 'flex', justifyContent: 'center'}}>
                         <p>{vote.rank}: </p>
                         <Form.Select value={vote.value} onChange={e => {
                             let updated_vote = { ...vote, value: e.target.value }
@@ -77,7 +77,7 @@ export default function Category() {
                                 }), updated_vote, { rank: duplicate.rank, value: '$UNDEFINED$' }].sort((a, b) => a.rank > b.rank ? 1 : -1))
                                 :
                                 setVotes(prev => [...prev.filter(old_vote => old_vote.rank != updated_vote.rank), updated_vote].sort((a, b) => a.rank > b.rank ? 1 : -1))
-                        }} defaultValue="$UNDEFINED$">
+                        }}>
                             {books.map(book => {
                                 return <option key={book.id} value={book.id}>{capitalise(book.name)} - {book.author}</option>;
                             })}
