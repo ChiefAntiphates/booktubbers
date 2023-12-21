@@ -61,7 +61,8 @@ export default function Category() {
         <>
             <div>
                 <div className="voting">
-                    <p>{category.name}</p>
+                    <h1>{category.name}</h1>
+                    <p>{category.description}</p>
                 </div>
 
                 {votes.map(vote => (

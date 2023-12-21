@@ -173,6 +173,12 @@
             "book-club-date": "03/12/2023",
             "rating": 2,
             "quote": "I have as much to say about this book as Ollie has to say about Ready Player One."
+        },
+        {
+            "book-id": "murderonthechristmasexpress-alexandrabenedict",
+            "book-club-date": "21/12/2023",
+            "rating": 2.5,
+            "quote": "Reskinned book with very heavy themes."
         }
     ],
     "ollie": [

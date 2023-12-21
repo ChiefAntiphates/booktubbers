@@ -253,5 +253,15 @@
         "name": "Neil Gaiman",
         "id": "neilgaiman",
         "gender": "male"
+    },
+    {
+        "name": "Alexandra Benedict",
+        "id": "alexandrabenedict",
+        "gender": "female"
+    },
+    {
+        "name": "Jenny Colgan",
+        "id": "jennycolgan",
+        "gender": "female"
     }
 ]

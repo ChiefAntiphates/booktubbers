@@ -21,6 +21,79 @@
         "08/09/2023",
         "14/10/2023",
         "19/11/2023",
-        "03/12/2023"
-    ]
+        "03/12/2023",
+        "21/12/2023"
+    ],
+    "2022": {
+        "reads_total": 66,
+        "pages_total": 25733,
+        "sessions": 15,
+        "books_read": {
+            "katie": 15,
+            "harry": 19,
+            "ollie": 17,
+            "bethany": 15
+        },
+        "pages_read": {
+            "katie": 5850,
+            "bethany": 6220,
+            "harry": 6650,
+            "ollie": 7010
+        },
+        "shared_reads_total": 6,
+        "average_rating": {
+            "harry": 3.16,
+            "katie": 3.43,
+            "ollie": 3.16,
+            "bethany": 2.95
+        },
+        "five_star_total": {
+            "harry": 3,
+            "katie": 3,
+            "ollie": 2,
+            "bethany": 2
+        },
+        "gender_divide": {
+            "harry": {
+                "male": {
+                    "books_read": 16,
+                    "average_rating": 3.22
+                },
+                "female": {
+                    "books_read": 3,
+                    "average_rating": 2.83
+                }
+            },
+            "katie": {
+                "male": {
+                    "books_read": 6,
+                    "average_rating": 3.5
+                },
+                "female": {
+                    "books_read": 9,
+                    "average_rating": 3.39
+                }
+            },
+            "ollie": {
+                "male": {
+                    "books_read": 15,
+                    "average_rating": 3.38
+                },
+                "female": {
+                    "books_read": 2,
+                    "average_rating": 1.5
+                }
+            },
+            "bethany": {
+                "male": {
+                    "books_read": 6,
+                    "average_rating": 3.38
+                },
+                "female": {
+                    "books_read": 9,
+                    "average_rating": 2.67
+                }
+            }
+        }
+    }
 }

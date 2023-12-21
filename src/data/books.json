@@ -628,5 +628,25 @@
         "pages": 635,
         "goodreads-rating": 4.11,
         "genres": ["fiction", "fantasy", "mythology", "urban-fantasy", "science-fiction"]
+    },
+    {
+        "id": "murderonthechristmasexpress-alexandrabenedict",
+        "name": "Murder on the Christmas Express",
+        "author-id": "alexandrabenedict",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1685359099i/85150686.jpg",
+        "publication-date": "10/11/2022",
+        "pages": 272,
+        "goodreads-rating": 3.18,
+        "genres": ["fiction", "christmas", "mystery", "crime", "holiday", "thriller"]
+    },
+    {
+        "id": "thechristmasbookshop-jennycolgan",
+        "name": "The Christmas Bookshop",
+        "author-id": "jennycolgan",
+        "image-url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1625678992i/56922701.jpg",
+        "publication-date": "26/10/2021",
+        "pages": 310,
+        "goodreads-rating": 3.78,
+        "genres": ["fiction", "christmas", "romance", "holiday", "chick-lit", "contemporary"]
     }
 ]

@@ -159,5 +159,28 @@
                 "quote": "Slow beginning and crazy ending... in a bad way."
             }
         }
+    },
+    {
+        "book-id": "thechristmasbookshop-jennycolgan",
+        "book-club-date": "21/12/2023",
+        "suggested-by": "",
+        "review" : {
+            "harry": {
+                "rating": 1.5,
+                "quote": "Choo choo! Two trains!"
+            },
+            "ollie": {
+                "rating": 1,
+                "quote": "Should have read a book about trains."
+            },
+            "bethany": {
+                "rating": 1,
+                "quote": "Just wasn't it. Tree hugger."
+            },
+            "katie": {
+                "rating": 1.5,
+                "quote": "Badly written. No Christmas vibes."
+            }
+        }
     }
 ]

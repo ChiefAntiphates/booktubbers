@@ -3,7 +3,7 @@ export default function BookCard(props) {
     const review = book.reads.find(read => read.member == member)
     return (
     <div style={{
-            backgroundColor: '#2d3d57', 
+            backgroundColor: '#e08026', 
             display: 'flex', 
             width: '30rem', 
             justifyContent:'space-between',

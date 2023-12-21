@@ -17,6 +17,7 @@ import Verify from './routes/verify.jsx';
 import Navbar from './components/navbar.jsx';
 import Footer from './components/footer.jsx';
 import Library from './routes/library.jsx';
+import Stats from './routes/stats.jsx';
 
 
 const router = createHashRouter([
@@ -46,6 +47,11 @@ const router = createHashRouter([
     {
       path: "/library",
       element: <Library />,
+      errorElement: <ErrorPage />
+    },
+    {
+      path: "/secret",
+      element: <Stats />,
       errorElement: <ErrorPage />
     }
   ]
