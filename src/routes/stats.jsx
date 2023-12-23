@@ -6,6 +6,9 @@ import authors from "../data/authors.json"
 import books from "../data/books.json"
 
 const getIndiReadsPages = name => indiReads[name].reduce((total, read) => total+(parseInt(books.find(book => book.id == read["book-id"]).pages)),0)
+
+const getAvgGoodreadsDiscrepancy = (name, books_read) => ((indiReads[name].reduce((total, read) => total+Math.abs(books.find(book => book.id == read["book-id"])["goodreads-rating"] - read.rating),0) + sharedReads.reduce((total, read) => total+Math.abs(books.find(book => book.id == read["book-id"])["goodreads-rating"] - read.review[name].rating),0))/books_read).toFixed(2)
+
 const getGenres = name => {
     let genres = {}
     indiReads[name].forEach(read => {
@@ -37,7 +40,6 @@ export default function Stats() {
         <p>Total books read this year: {books_read} (increase of {Math.round((books_read/tubberData[2022].reads_total)*100)-100}% from last year)</p>
         <p>Total pages read this year: {pages_read} (increase of {Math.round((pages_read/tubberData[2022].pages_total)*100)-100}% from last year)</p>
         <p>Shared reads this year: {sharedReads.length} (increase of {Math.round((sharedReads.length/tubberData[2022].shared_reads_total)*100)-100}% from last year)</p>
-        <p>TODO: ADD AVERAGE OF WHO SUGGESTED GOOD SHARED BOOKS</p>
         {
             tubberData.members.map(name => {
             let pages_read = getIndiReadsPages(name)+sharedReads.reduce((total, read) => total+(parseInt(books.find(book => book.id == read["book-id"]).pages)),0)
@@ -60,6 +62,7 @@ export default function Stats() {
                 <p>Average rating of male authors: {male_avg} (last year was {tubberData[2022].gender_divide[name].male.average_rating})</p>
                 <p>Book read written by female authors: {female_reads} (change of {((female_reads/tubberData[2022].gender_divide[name].female.books_read)*100-100).toFixed(0)}%)</p>
                 <p>Average rating of female authors: {female_avg} (last year was {tubberData[2022].gender_divide[name].female.average_rating})</p>
+                <p>Good reads discrepancy: {getAvgGoodreadsDiscrepancy(name, books_read)}</p>
                 <p>Favourite genres</p>
                 {genres.slice(0,3).map(genre => <p>{genre.genre} - Count: {genre.count} - Average Rating: {genre.avg_rating}</p>)}
                 <p>Least Favourite genres</p>
